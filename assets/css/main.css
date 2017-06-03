@@ -8,28 +8,28 @@ body {
 }
 
 /* diseño para seccion navegador*/
- .link{
- 	font-weight: 700;
- 	padding: 21px;
- 	display: inline-block;
+.link{
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
   text-decoration: none;
   color: #000;
- }
+}
 
- /*contenedor flexbox*/
- .flex-container{
- 	display: flex;
- }
+/*contenedor flexbox*/
+.flex-container{
+  display: flex;
+}
 
- /* menú*/
+/* menú*/
 
- .menu{
- 	background-color: white;
- 	position: fixed;
- 	top: 0;
- 	left: 0;
- 	width: 100%;
- }
+.menu{
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 
 .menu.flex-container{
 	justify-content: flex-start;
@@ -52,23 +52,23 @@ body {
   margin-top: 70px;
 
   background-image: url('../imges/bg-home.jpg');
-background-position: center;
-background-size: cover;
-background-attachment: fixed;
-background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 
-justify-content: center;
-align-items: center;
-flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
-color: whitesmoke;
+  color: whitesmoke;
 }
 
 .text-home{
   font-size: 30pxem;
 }
 
- .btn-home{
+.btn-home{
   background: #2Ecc71;
   color: #fff;
   padding: 11px 20px;
@@ -78,22 +78,40 @@ color: whitesmoke;
   margin-top: 63px;
   display: inline-block;
   font-size: 14px;
- }
+}
 
- #services{
+#services{
   background-color: #F17C72;
   text-align: center;
   color: #fff;
   padding: 70px;
- }
+}
 
- #services.flex-container{
+#services.flex-container{
   justify-content: space-around;
   flex-wrap: wrap;
- }
+}
 
- .box-services{
+.box-services{
   font-size: 40px;
   font-weight: bold;
- }
+}
 
+/* Seccion WORKS*/
+
+.flex-container-images img{
+
+  width: 300px;
+  padding: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.flex-container-images{
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
