@@ -149,3 +149,15 @@ p{
     text-transform: uppercase;
 }
 
+/*FOOTER*/
+footer {
+  background-color: #001F3F;
+  
+}
+footer p{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 20px;
+}
